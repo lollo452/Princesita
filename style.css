@@ -1,0 +1,93 @@
+/* Estilo General */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffccff, #ccccff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff69b4;
+    margin: 0;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contenido Principal */
+main {
+    margin: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.message, .playlist {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message h2, .playlist h2 {
+    font-size: 1.5rem;
+    color: #9932cc;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Botón */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #ff1493;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    .button {
+        font-size: 0.9rem;
+    }
+}
